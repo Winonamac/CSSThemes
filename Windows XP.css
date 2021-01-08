@@ -1,0 +1,219 @@
+  
+/* ! ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓*/
+/* ! ┃https://myspace.windows93.net/?id=13227┃*/
+/* ! ┃            made by Lunary             ┃*/
+/* ! ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛*/
+
+html, body, input[readonly]:not([type="checkbox"]):not([type="radio"]):not([type="range"]), textarea[readonly] {
+    cursor: url(https://www.windows93.net/c/sys/cursors/default.cur),default;
+}
+textarea {
+	cursor:url("https://www.windows93.net/c/sys/cursors/text.cur"),text
+}
+
+input[type=checkbox],input[type=radio],button,a,input {
+	cursor:url("https://www.windows93.net/c/sys/cursors/pointer.cur"),pointer
+}
+body {
+    font-family: Arial;
+    background-image: url(https://i.imgur.com/SuFFNvt.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.boxHead, .rightHead, h2#name, .blurbs>.blogs>div:first-child {
+    font-family: Trebuchet MS;
+    background-image: linear-gradient(180deg,#0997ff,#0053ee 8%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7);
+    padding: 4px 5px 3px 3px;
+    border-top: 1px solid #0831d9;
+    border-left: 1px solid #0831d9;
+    border-right: 1px solid #001ea0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 7px;
+    font-size: 13px;
+    width: 99.50%;
+    margin-left: -5px;
+    text-shadow: 1px 1px #0f1089;
+    color: white;
+    padding-left: 6px;
+    margin-top: 0;
+    user-select: none;
+}
+.boxInfo {
+    margin-bottom: 0;
+}
+h2#name {
+    padding: 4px 3.1px 5px 4px;
+}
+.short {
+    width: 101.4%;
+    background-color: #ece9d8;
+    box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px 1px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda, inset 3px 0px #0855dd;
+    -webkit-font-smoothing: antialiased;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -5px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+.box, .short, .topLeft.blogCard {
+    background-color: #ece9d8;
+    box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda, inset 3px 3px #0855dd;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    -webkit-font-smoothing: antialiased;
+    border: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+.short {
+    width: 102.1%;
+    box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 0px #166aee, inset -3px 0px #003bda, inset 2px 0px #0855dd;
+    padding-top: 5px;
+    border-radius: 0;
+}
+#commentInput {
+    width: 99%;
+    margin-right: 30px;
+    margin-top: 4px;
+}
+input[type="submit"], button, #sMsg, #block, #report, #add {
+    font-family: "MS Sans Serif",Arial;
+    -webkit-font-smoothing: antialiased;
+    font-size: 11px;
+    box-sizing: border-box;
+    border: 1px solid #003c74;
+    background-image: linear-gradient(180deg,#fff,#ecebe5 86%,#d8d0c4);
+    box-shadow: none;
+    border-radius: 3px;
+    color: black;
+    user-select: none;
+}
+#sMsg, #block, #report, #add {
+padding: 5px;
+text-align: center;
+}
+div {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.blogBody > #sMsg {
+    padding-left: 3px;
+}
+.boxInfo.box > .boxHead {
+    width: 99.3%;
+}
+.box.comments > #form > .boxHead {
+    margin-top: -4px;
+    width: 100.2%;
+}
+.topRight > .box.comments > #form > .boxHead {
+    width: 99.5%;
+}
+.blurbs>.blogs>div:first-child {
+    margin-right: -4px;
+    margin-left: -3px;
+    position: relative;
+    width: calc(100% + -7px);
+    top: -20px;
+}
+.blurbs>.blogs>div:not(:first-child){
+width: 96px;
+text-align: center;
+margin: 0 20px;
+margin-bottom: 20px;
+}
+
+.blurbs>.blogs>div:not(:first-child):before{
+content: "";
+display: block;
+width: 96px;
+height: 64px;
+background-image: url(https://i.imgur.com/qSfHWmi.png);
+background-repeat: no-repeat;
+background-position: center;
+image-rendering: pixelated;
+}
+
+.blogs {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: white;
+    width: 100.6%;
+    margin-bottom: -1px;
+    margin-left: -2px;
+}
+div#top {
+    padding: 14px;
+    clear: both;
+    background-image: linear-gradient(180deg,#fcfcfe,#f4f3ee);
+    border: 1px solid #919b9c;
+    position: relative;
+    margin-bottom: 9px;
+}
+.topLeft.blogCard {
+    margin-top: 20px;
+    margin-left: -5px;
+    width: 24%;
+}
+.topRight.blogPost > .blogs {
+    background-color: transparent;
+}
+.blogTitle > h2#name {
+    position: relative;
+    top: 110px;
+    width: 74.1%;
+    left: 25.8%;
+    z-index: 1;
+}
+.blogs div {
+    width: 99.4%;
+}
+span#hUp {
+    background-color: black;
+    vertical-align: middle;
+    height: 20px;
+    position: relative;
+    top: -9px;
+    right: -10px;
+}
+div#header {
+    background-color: #6487dc;
+    height: 48px;
+    border: 0;
+}
+div#hSub {
+    height: 11px;
+    margin-top: 25px;
+    background-color: #6487dc;
+    font-size: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+a.logo {
+    content: url(https://i.imgur.com/Do1faYI.gif);
+    position: relative;
+    top: -6px !important;
+    right: 9px !important;
+}
+div#container {
+    margin-top: 20px;
+}
+div#imgPreview {
+    margin-top: 0px;
+}
+.boxInfo.box {
+    padding-bottom: 10px;
+}
+#sMsg:hover, #block:hover, #report:hover, #add:hover, input:hover, button:hover {
+box-shadow: inset -1px 1px #fff0cf, inset 1px 2px #fdd889, inset -2px 2px #fbc761, inset 2px -2px #e5a01a;
+user-select: none;
+}
+#sMsg:active, #block:active, #report:active, #add:active, input:active, button:active {
+box-shadow: none;
+background-image: linear-gradient(180deg, rgba(205, 202, 195, 1) 0%, rgba(227, 227, 219, 1) 8%, rgba(229, 229, 222, 1) 94%, rgba(242, 242, 241, 1) 100%);
+user-select: none;
+}
