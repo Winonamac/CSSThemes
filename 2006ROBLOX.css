@@ -1,0 +1,300 @@
+/* ! ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓*/
+/* ! ┃https://myspace.windows93.net/?id=606┃*/
+/* ! ┃   made by brian griffen industries  ┃*/
+/* ! ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛*/
+#container {
+    max-width: 905px;
+    padding: 5px;
+    width: 905px;
+    padding-top: 10px!important;
+}
+img {
+    image-rendering: auto!important;
+}
+body {
+    font: normal 8pt/normal Comic Sans MS!important;
+    margin: 0;
+    padding: 0px;
+    text-transform: none;
+    text-decoration: none;
+}
+.boxInfo, form, .blurbs, .player, .url, .extended, .box.fwiends, #userWall {
+    margin-bottom: 8px;
+    border: solid 1px #000;
+    background-color: White;
+    z-index: 0;
+}
+#userWall {
+    margin-top: -1px;
+    width: 523px;
+}
+.tableRight, .tableLeft {
+    background: transparent;
+}
+.tableRight {
+    width: 350px;
+    display: block;
+}
+.boxHead {
+    float: inherit;
+    border-bottom: solid 1px #000;
+    text-align: center;
+    padding: 0px;
+    background-color: #ccc;
+    color: #333;
+    display: block;
+}
+.rightHead b {
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+form {
+    border-top: none;
+}
+.topRight .boxHead {
+    border: 1px solid black;
+}
+.box.fwiends .rightHead {
+    text-align: center;
+    padding: 0px;
+    font-family: Verdana,Sans-Serif;
+    background: none;
+    color: black;
+    padding-top: 1px;
+}
+.fwiendCounter, #viewFriends {
+	display: none;
+}
+.box.fwiends .rightHead b {
+    font-size: 10pt!important;
+}
+#commentInput {
+    width: calc( 80% - 6px );
+}
+.short {
+    padding: 10px;
+}
+#footer {
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    padding: 3em 0.01px;
+    width: 890px;
+    max-width: 890px;
+}
+.rightHead b {
+        font-size: 16px;
+    font-weight: bold;
+}
+.topLeft .short {
+    width: 100%
+}
+.topLeft {
+    padding: 0px;
+}
+.topRight {
+    padding: 5px;
+}
+.avatar {
+    width: 150px;
+}
+h2.uName {
+    float: inherit;
+    background-color: lightsteelblue;
+    text-align: center;
+    font-family: Verdana,Sans-Serif;
+    padding: 6px;
+    border: 1px solid black;
+    display: block;
+}
+.short {
+    border: 1px solid black;
+    border-top: none;
+    background-color: lightsteelblue;
+}
+.fwiendFace img, .tableLeft img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    max-width: none;
+}
+.url.box {
+    display: none;
+}
+#footer {
+    border-top: 2px ridge darkgrey;
+}
+#form input {
+    color: transparent;
+    border:none;
+    width: 68px;
+    background:transparent url("http://web.archive.org/web/20111112020137im_/http://roblox.com:80/Forum/skins/default/images/newpost.gif");
+    background-repeat: no-repeat;
+    height: 19px;
+    cursor: pointer;
+}
+#report {
+    background-repeat: no-repeat;
+    background-image: url(https://briangriffen.neocities.org/images/roblox/reportabuse.png);
+}
+#add {
+    background-repeat: no-repeat;
+    background-image: url(https://briangriffen.neocities.org/images/roblox/friend.png);
+}
+#sMsg {
+    background-repeat: no-repeat;
+    background-image: url(https://briangriffen.neocities.org/images/roblox/message.png);
+}
+#block {
+    background-repeat: no-repeat;
+    background-image: url(https://briangriffen.neocities.org/images/roblox/block.png);
+}
+.boxButton:hover, .tableLeft > a > div:hover, .fwiendFace b:hover {
+    text-decoration: underline;
+}
+.fwiendFace b, .tableLeft > a > div {
+    padding-bottom: 2px;
+}
+#viewFriends a {
+    text-decoration: none;
+}
+#viewFriends a:hover {
+    text-decoration: underline;
+}
+/* ! https://myspace.windows93.net/?id=606 */
+/* ! if you steal this i have the permission to call you fat and retarded :troll: */
+/* ! made by brian griffen industries */
+#header {
+    position: inherit!important;
+    background: url(https://briangriffen.neocities.org/images/roblox/banner.png)!important;
+    width: 883px!important;
+    display: block!important;
+    font: normal 12px/normal Verdana,sans-serif!important;
+    height: 64px!important;
+    border: 1px solid #000!important;
+    font-weight: bold!important;
+}
+#hSub {
+    position: inherit!important;
+    background: #6e99c9!important;
+    border: solid 1px #000!important;
+    width: 883px!important;
+    color: white!important;
+    display: block!important;
+    height: 30px!important;
+    margin-top: -44px!important;
+    font-family: Comic Sans MS!important;
+    font-size: 12pt!important;
+    font-weight: normal!important;
+    line-height: 2em!important;
+    text-align: center!important;
+}
+#header a:not(.logo) {
+    margin-right: 0px!important;
+    margin-top: 0px!important;
+    float: left!important;
+    margin-left: 0px!important;
+    padding: 4px!important;
+}
+.extended {
+	margin-top: 8px;
+}
+.blinkYellow, .blinkGreen, .blinkRed, .blinkViolet {
+    display: none;
+}
+a.logo {
+    display: none!important;
+}
+.fwiendCounter, #viewFriends {
+    padding: 7px;
+}
+#hSub a:hover, #header a:hover {
+    text-decoration: underline;
+}
+.blurbs {
+    display:none!important;
+}
+#hSub a[href^="/?id="] {
+    font-size: 0;
+}
+
+#hSub a[href^="/?id="]::after {
+    content: "My ROBLOX";
+    font-size: 12pt !important;
+}
+#hSub a[href^="/all."] {
+    font-size: 0;
+}
+
+#hSub a[href^="/all."]::after {
+    font-size: 12pt !important;
+    content: "Games";
+}
+#hSub a[href^="/list."] {
+    font-size: 0;
+}
+
+#hSub a[href^="/list."]::after {
+    content: "Catalog";
+    font-size: 12pt !important;
+}
+#hSub a[href^="/random."] {
+    font-size: 0;
+}
+
+#hSub a[href^="/random."]::after {
+    font-size: 12pt !important;
+    content: "People";
+}
+#hSub a[href^="/online."] {
+    font-size: 0;
+}
+
+#hSub a[href^="/online."]::after {
+    font-size: 12pt !important;
+    content: "Builders Club";
+}
+#hSub a[href^="/music."] {
+    font-size: 0;
+}
+
+#hSub a[href^="/music."]::after {
+    font-size: 12pt !important;
+    content: "Forum";
+}
+#hSub a[href^="/blog."] {
+    font-size: 0;
+}
+
+#hSub a[href^="/blog."]::after {
+    font-size: 12pt !important;
+    content: "Parents";
+}
+#hSub a[href^="/search."] {
+    font-size: 0;
+}
+
+#hSub a[href^="/search."]::after {
+    font-size: 12pt !important;
+    content: "Help";
+}
+.fwiendFace b, .tableLeft > a > div {
+	font-size: 10.6667px;
+    font-family: Verdana,Sans-Serif;
+}
+#footer {
+    padding: 0px;
+    padding-top: 3px;
+}
+.shortRight {
+    font-family: Verdana!important;
+}
+#hUp {
+    float: left!important;
+    margin: -7px!important;
+}
+#imgPreview img {
+	background-color: #FFFFE0;
+	border: 3px solid gray;
+	box-shadow: black 5px 5px;
+}
